@@ -1,0 +1,7 @@
+.box1 {
+  /*下から上へのスライドの時はいらない*/
+  /*display: none;*/
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+}
