@@ -16,6 +16,19 @@
 //   $('.box1').css({'background-color': '#0000FF'});
 // });
 
+// $(function(){
+//   $('.box1').hide();
+// });
+
+// $(function(){
+//     $('.box1').on('click', function(){
+//         // 要素を指定できる
+//         $(this).slideUp();
+//     });
+// });
+
 $(function(){
-  $('.box1').hide();
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
+  });
 });
